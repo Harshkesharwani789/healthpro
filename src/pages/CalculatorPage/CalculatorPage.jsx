@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Breadcrum from "../../components/breadcrum/Breadcrum";
+import NavPage from "../../components/breadcrum/Breadcrum";
 import Header from "../../components/header/Header";
 import "./CalculatorPage.css";
 
@@ -14,7 +14,7 @@ function CalculatorPage() {
     <div>
       <Header />
       <div className="calculator-container">
-        <Breadcrum />
+        <NavPage/>
         <div className="content-container">
           <h1>Which age range applies to you?</h1>
           <div className="age-options">

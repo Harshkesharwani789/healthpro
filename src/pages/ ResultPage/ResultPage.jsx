@@ -26,7 +26,6 @@ function ResultPage() {
                   className="pointer-icon"
                   alt="Pointer Icon"
                 />
-
                 <h1 className="hero-heading">
                   Your estimated IVF Success Rate is
                 </h1>
@@ -38,6 +37,7 @@ function ResultPage() {
             <p className="ivf-cycle-count">With 1 IVF Cycle</p>
           </div>
           <div className="image-container">
+            <div className="circle-overlay"></div>
             <img src={womenExpectingBaby} alt="Woman Expecting Baby" />
           </div>
           <div className="private-consultation">
@@ -45,7 +45,6 @@ function ResultPage() {
           </div>
         </div>
       </div>
-
     </>
   );
 }
